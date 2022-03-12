@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduD!</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="student.html">Student</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+<section class="course">
+    <h1>course</h1>
+    <p>Skills</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>communication skills</h3>
+            <p>. </p>
+        </div>
+        <div class="course-col">
+            <h3>writing skills</h3>
+            <p>.            </p>
+        </div>
+        <div class="course-col">
+            <h3>Work</h3>
+            <p>  </p>
+        </div>
+    </div>
+</section>
+<!---------- Facilities ---------->
+    
+<section class="facility">
+    <h1>Information</h1>
+    <p>Information about course</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="comunication.jpg">
+                <h3>Improve Communication skills</h3>
+                <p>
+                1.  Listen, listen, and listen. ...<br>
+                2.Who you are talking to matters. ...<br>
+                3.Body language matters. ...<br>
+                4.Check your message before you hit send. ...<br>
+                5.Be brief, yet specific. ...<br>
+                5.Write things down. ...<br>
+                6.Sometimes it's better to pick up the phone. ...<br>
+                7.Think before you speak.<br>
+                </p>
+            </div>
+            <div class="facility-col">
+                <img src="writing.jpg">
+                <h3>Writing Skills</h3>
+                <p> 1.Be direct in your writing. Good writing is clear and concise. ...<br>
+                    2.Choose your words wisely. ...<br>
+                    3.Short sentences are more powerful than long sentences. ...<br>
+                    4.Write short paragraphs. ...<br>
+                    5.Always use the active voice. ...<br>
+                    6.Review and edit your work. ...<br>
+                    7.Use a natural, conversational tone. ...<br>
+                    8.Read famous authors..</p>
+            </div>
+            <div class="facility-col">
+                <img src="tecnical.jpg">
+                <h3>Technical skills</h3>
+                <p>
+                    1. Read technical books. One of the best ways to improve your technical skills is by reading books. ...<br>
+                    2.Read online tutorials. ...<br>
+                    3.Hang out with geeks. ...<br>
+                    4.Subscribe to technical magazines. ...<br>
+                    5.Take classes. ...<br>
+                    6.Create your own web site. ...<br>
+                    7.Build your own PC. ...<br>
+                    8.Embrace a variety of software.<br>
+                </p>
+            </div>
+        </div>
+</section>
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We want to Make student life more  Productive and Efficient.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Dcode</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
